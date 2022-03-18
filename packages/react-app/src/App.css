@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+
+.App {
+  font-family: 'Boogaloo', cursive;
+  text-align: center;
+  font-size: 1.25rem;
+  padding-left: calc(100vw - 100%);
+}
+
+.sketch-container {
+  position: fixed;
+  z-index: -1;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 0.5;
+}
+
+.title {
+  text-align: center;
+  color: #e63946;
+  font-size: 5rem;
+}
+
+.subtitle {
+  text-align: center;
+  color: #1d3557;
+
+}
+
+.card {
+  border-radius: 12px;
+  background-color: #FFECD9;
+  box-shadow: 0 1px 8px #ffd6a5;
+  opacity: 0.75;
+}
+
+.content {
+  padding: 1rem;
+  background-color: #DEBC95;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+}
+
+.content-item {
+  padding:0.25rem;
+  margin: 1rem 0;
+}
+
+.btnline {
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
+.mintbtn {
+  font-size: 2.5rem;
+  background-color: #1d3557;
+  color:#ffd6a5;
+  border-radius: 12px;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
