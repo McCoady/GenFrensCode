@@ -260,6 +260,7 @@ function App(props) {
             yourLocalBalance={yourLocalBalance}
             readContracts={readContracts}
             writeContracts={writeContracts}
+            mainnetProvider={mainnetProvider}
             userSigner={userSigner}
             localChainId={localChainId}
             tx={tx}

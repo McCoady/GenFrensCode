@@ -14,11 +14,6 @@ const Content = (props) => {
                 para1={props.content[1].para1}
                 para2={props.content[1].para2}
             />
-            <ContentItem
-                title={props.content[2].title}
-                para1={props.content[2].para1}
-                para2={props.content[2].para2}
-            />
         </Card>
     );
 };

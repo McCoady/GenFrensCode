@@ -27,3 +27,4 @@ export { default as SketchComp } from "./SketchComp";
 export { default as Card } from "./Card";
 export { default as Content } from "./Content";
 export { default as ContentItem } from "./ContentItem";
+export { default as Frame } from "./Frame"

@@ -1,12 +1,11 @@
 import React from "react";
 import { utils } from "ethers";
 import { useContractReader } from "eth-hooks";
-import { Card, Content } from "../components";
+import { Card, Content, Frame } from "../components";
 
 const content = [
-  { id: "e1", title: "GenFrens", para1: "GenFrens are a profile picture collection created with code in p5.js.", para2: "Every Fren is unique and it's appearance is decided by a random hash on mint." },
+  { id: "e1", title: "GenFrens", para1: "GenFrens are a profile picture collection created entirely with code in p5.js.", para2: "Every Fren is unique and it's appearance is decided by a random hash on mint." },
   { id: "e2", title: "Circolors", para1: "GenFrens are part of the Circolors family, a shadowy supergroup of aspiring generative artists.", para2: "Check the Discord server for more information on projects coming SOON." },
-  { id: "e3", title: "The Future", para1: "No false promises of utility for the GenFrens, although a number of cool ideas already being thrown around.", para2: "100% !vibes guaranteed." },
 ];
 
 /**
@@ -59,8 +58,11 @@ function Home({ yourLocalBalance, readContracts, writeContracts, userSigner, loc
           <br />
           <span> {Number(minted)} / 444 minted</span>
         </div>
+
       </Card>
+      <Frame className="frame" readContracts={readContracts} />
       <Content content={content} />
+
     </div>
   );
 }
